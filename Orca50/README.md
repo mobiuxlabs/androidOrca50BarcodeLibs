@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/mobiuxlabs/androidOrca50BarcodeLibs.svg)](https://jitpack.io/#mobiuxlabs/androidOrca50BarcodeLibs)
+
 # Barcode Reader Library for Orca50 Device, which uses zebra hardware for scanning
 
 # Steps 1: add jitpack repo in project-level gradle
@@ -23,3 +25,5 @@
             tvMessage.setText(barcode);
         }
     }
+
+
