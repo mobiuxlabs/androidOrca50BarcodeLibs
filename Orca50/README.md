@@ -7,7 +7,7 @@
           maven { url 'https://jitpack.io' }
       } 
 
- Steps 2: add in app-level gradle dependencies
+Steps 2: add in app-level gradle dependencies
     dependencies  {
         implementation 'com.github.mobiuxlabs:androidOrca50BarcodeLibs:v1.0.1'
     }
