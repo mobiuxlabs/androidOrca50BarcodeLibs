@@ -2,18 +2,20 @@
 
 # Barcode Reader Library for Orca50 Device, which uses zebra hardware for scanning
 
-# Steps 1: add jitpack repo in project-level gradle
+Steps 1: add jitpack repo in project-level gradle
+   
      repositories {
           maven { url 'https://jitpack.io' }
       } 
 
-<h2>Steps 2: add in app-level gradle dependencies</h2>
+Steps 2: add in app-level gradle dependencies
 
     dependencies  {
         implementation 'com.github.mobiuxlabs:androidOrca50BarcodeLibs:v1.0.1'
     }
     
-# Steps 3: extends BarcodeReaderBaseActivity in you activity and override onBarcodeScan(String barcode)
+Steps 3: extends BarcodeReaderBaseActivity in you activity and override onBarcodeScan(String barcode)
+
     public class MainActivity extends BarcodeReaderBaseActivity {
         @Override
         protected void onCreate(Bundle savedInstanceState) {
