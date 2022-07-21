@@ -1,13 +1,9 @@
 package in.mobiux.android.orca50barcodereader;
 
-import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.os.Environment;
 import android.widget.TextView;
-
 import com.zebra.sdl.BarcodeReaderBaseActivity;
-
 public class MainActivity extends BarcodeReaderBaseActivity {
 
     private TextView tvMessage;
