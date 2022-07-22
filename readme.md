@@ -11,7 +11,7 @@ Steps 1: add jitpack repo in project-level gradle
 Steps 2: add in app-level gradle dependencies
 
     dependencies  {
-        implementation 'com.github.mobiuxlabs:androidOrca50BarcodeLibs:v1.0.1'
+        implementation 'com.github.mobiuxlabs:androidOrca50BarcodeLibs:v1.0.2'
     }
     
 Steps 3: extends BarcodeReaderBaseActivity in you activity and override onBarcodeScan(String barcode)
